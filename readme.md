@@ -18,8 +18,8 @@ A simple web app where users write a reflection and get a mock emotion analysis.
 cd backend
 python -m venv venv              # Create virtual environment
 source .venv/bin/activate         # On Windows: venv\Scripts\activate
-pip install "fastapi[standard]"  # Install FastAPI + Uvicorn
-fastapi dev main.py              # Start server
+pip install -r requirements.txt
+python main.py             # Start server
 ```
 ---
 
