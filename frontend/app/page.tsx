@@ -31,7 +31,7 @@ export default function EmotionAnalyzer() {
     setResult(null)
 
     try {
-      const response = await fetch("http://localhost:8000/analyze", {
+      const response = await fetch("https://emo-reflect-2.onrender.com/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
